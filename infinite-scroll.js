@@ -1,3 +1,9 @@
+/**
+ * Enables infinite scrolling
+ *
+ * @module nag.infiniteScroll
+ * @ngdirective nagInfiniteScroll
+ */
 angular.module('nag.infiniteScroll', [])
 .directive('nagInfiniteScroll', [function() {
   return function(scope, elm, attr) {
