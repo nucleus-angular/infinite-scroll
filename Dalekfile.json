@@ -1,0 +1,8 @@
+{
+  "tests": [
+    "dalek/infinite-scroll.js"
+  ],
+  "browser": [
+    "chrome"
+  ]
+}
