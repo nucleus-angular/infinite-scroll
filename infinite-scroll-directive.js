@@ -18,7 +18,7 @@
  *
  * @nghtmlattribute {function} nag-infinite-scroll Function to call when the element in near the bottom of scrolling
  */
-angular.module('nag.infiniteScroll', [])
+angular.module('nag.infiniteScroll')
 .directive('nagInfiniteScroll', [function() {
   return function(scope, element, attr) {
     var rawElement = element[0];
