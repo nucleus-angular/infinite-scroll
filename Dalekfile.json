@@ -2,6 +2,7 @@
   "tests": [
     "dalek/infinite-scroll.js"
   ],
+  "logLevel": "1",
   "browser": [
     "chrome"
   ]
